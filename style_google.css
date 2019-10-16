@@ -1,5 +1,6 @@
 p.boven{
 	text-align: right;
+  margin-top: 0px;
 }
 img.midden{
   display: block;
@@ -9,11 +10,8 @@ img.midden{
   width: 17.5%;
 }
 img.micro{
-  width: 1.1% ;
+  width: 4% ;
   border:solid transparent;
-   position: absolute;
-  top: 45%;
-  left: 64.5%;
 }
 span{
     border: solid 0.5px grey;
@@ -22,7 +20,7 @@ span{
 	margin-left: auto;
 	margin-top: 20px;
 	width: 34%;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	border-radius: 40px 40px 40px 40px;
 }
 input{
@@ -59,6 +57,7 @@ a:hover{
     text-decoration: underline;
 }
 footer{
+  width: 100%;
   bottom: 0;
   position: absolute;
   left: 0;
@@ -67,7 +66,7 @@ div.different {
   color: #5f6368;
   padding-left: 27px;
   height: 36.5px;
-  width: 100%;
+  width: 98%;
   background-color:#f2f2f2 ;
   border:solid 1px #e4e4e4;
 }
